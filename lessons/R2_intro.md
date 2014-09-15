@@ -53,7 +53,7 @@ First, plot some exploratory graphs.
             col=c("green","red"), names=c("Automatic","Manual"));
 
 ![plot of chunk
-explore](./IntroductionR2_files/figure-markdown_strict/explore.png)
+explore](./img/explore.png)
 
 From the graph, we see that most points of manual transmission are above
 those of automatic transmission. In order to see the difference
@@ -199,7 +199,7 @@ see that the model fits well with few outliers.
     mtext("Figure 3 Residual Diagnostics", cex = 1.5, outer = TRUE, line = 1)
 
 ![plot of chunk
-residualplot](./IntroductionR2_files/figure-markdown_strict/residualplot.png)
+residualplot](./img/residualplot.png)
 
 **Analysis of the model**: If we hold the **qsec** constant at its mean,
 for each unit increase in the weight starting at mean, miles per gallon
